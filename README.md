@@ -14,6 +14,8 @@ Web-App (PWA) fürs Android-Handy: erkennt Rattern beim Fräsen über das Handym
 
 Verlauf je Setup: alle Ratterfrequenzen, Median, stabile Drehzahlen, Stabilitätskarte (ap über n).
 
+Anleitung für den ersten Testschnitt (Skizze, Schnittwerte, Ablauf): [docs/testschnitt.pdf](docs/testschnitt.pdf), Quelle `docs/testschnitt.html` (Druck mit Chrome headless `--print-to-pdf`).
+
 ## Daten
 
 Alles bleibt im Browser-Speicher (IndexedDB) des Handys. Export als JSON (Sicherung, wieder importierbar) oder CSV (Excel, Semikolon, Dezimalkomma). Rohaudio wird nicht gespeichert, nur die Spektren.
